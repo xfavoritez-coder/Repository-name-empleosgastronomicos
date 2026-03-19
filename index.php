@@ -1,2 +1,6 @@
 <?php
-echo "Proyecto Empleos Gastronómicos funcionando";
+
+require_once 'app/core/Router.php';
+
+$router = new Router();
+$router->run();
